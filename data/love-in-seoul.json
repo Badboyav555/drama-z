@@ -1,0 +1,33 @@
+{
+  "id": "love-in-seoul",
+  "title": "Love In Seoul",
+  "poster": "https://picsum.photos/seed/poster1/300/450.jpg",
+  "banner": "https://picsum.photos/seed/banner1/1200/600.jpg",
+  "description": "A passionate romance blooms between a humble street food vendor and a wealthy CEO in the bustling streets of Seoul.",
+  "genres": ["Romance", "Drama"],
+  "status": "Ongoing",
+  "year": "2026",
+  "rating": "9.7",
+  "views": "1.2M",
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episode": 1,
+          "title": "First Meeting",
+          "thumbnail": "https://picsum.photos/seed/ep1/300/170.jpg",
+          "ad_url": "https://example.com/ad",
+          "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+          "episode": 2,
+          "title": "The Misunderstanding",
+          "thumbnail": "https://picsum.photos/seed/ep2/300/170.jpg",
+          "ad_url": "https://example.com/ad",
+          "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        }
+      ]
+    }
+  ]
+}

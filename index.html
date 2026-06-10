@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DramaVault | Premium AI Drama Streaming</title>
+    <meta name="description" content="Stream the best AI-generated drama stories.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo" onclick="app.router.navigate('')">Drama<span>Vault</span></a>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search drama..." id="searchInput">
+            </div>
+
+            <button class="hamburger" onclick="app.ui.toggleMenu()">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-item" onclick="app.router.navigate('')">Home</a></li>
+                <li><a href="#" class="nav-item" onclick="app.ui.showFavorites()">Favorites</a></li>
+                <li><a href="#" class="nav-item" onclick="app.ui.showHistory()">History</a></li>
+                <li><a href="#" class="nav-item">Categories</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN APP CONTAINER -->
+    <main id="app"></main>
+
+    <!-- FOOTER -->
+    <footer style="background: white; padding: 40px 0; margin-top: 60px; text-align: center; border-top: 1px solid #eee;">
+        <div class="container">
+            <div class="logo" style="margin-bottom: 20px; display: inline-block;">Drama<span>Vault</span></div>
+            <p style="color: var(--text-light); font-size: 0.9rem;">© 2026 DramaVault. Premium AI Drama Streaming.</p>
+        </div>
+    </footer>
+
+    <!-- TOAST -->
+    <div id="toast" class="toast">
+        <span style="font-size: 1.2rem;">✨</span>
+        <span id="toastMsg">Notification</span>
+    </div>
+
+    <!-- JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
